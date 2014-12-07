@@ -15,8 +15,11 @@ gem 'rails', '4.1.7'
 # Devise gem
 gem 'devise', '~> 3.4.1'
 
-# Install Intercom
+# Intercom
 gem 'intercom-rails'
+
+# New Relic
+gem 'newrelic_rpm'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
@@ -62,4 +65,3 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-
